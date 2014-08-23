@@ -144,12 +144,12 @@ nav a:focus { color: #42bfc2; }
 }
 
 .top-content .logo {
-	padding-bottom: 40px;
+	padding-bottom: 5px;
 }
 
 .top-content .logo a {
 	display: inline-block;
-	width: 166px;
+	width: 207px;
 	height: 90px;
 	margin: 0;
 	padding: 0;
