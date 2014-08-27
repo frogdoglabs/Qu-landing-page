@@ -136,8 +136,20 @@ nav a:focus { color: #42bfc2; }
 }
 
 .top-content .phone {
+	position: relative;
 	text-align: center;
 }
+
+.top-content .phone .video {
+	position: absolute;
+	top: 85px;
+	left: 105px;
+	width: 276px;
+	height: 469px;
+	z-index: 997;
+}
+
+.top-content .phone .video iframe { width: 100%; height: 100%; }
 
 .top-content .text {
 	padding-top: 60px;
