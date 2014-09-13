@@ -88,7 +88,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 			<a href="terms.html" target="_blank" onclick="Indicative.buildEvent('Terms & Privacy');">Terms & Privacy</a>
 			<a href="mailto:support@joinpeek.com" onclick="Indicative.buildEvent('Contact');">Contact</a>
 			<div class="hide-menu">
-				<a href=""><i class="fa fa-bars"></i></a>
+				<a href=""><i class="fa fa-bars" onclick="Indicative.buildEvent('Hamburger menu');"></i></a>
 			</div>
 
 			<script type="text/javascript">
@@ -223,7 +223,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                    </div>
 	                    <div class="single-faq">
 	                    	<h3>How do I save Peeks to my phone?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'SavePeeks'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	When you take a Peek, each photo is saved automatically into your camera roll (separately, not as a Peek). We are working on adding an option to Settings so in future you choose to turn this feature on/off. 
@@ -232,7 +232,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                    </div>
 	                	<div class="single-faq">
 	                    	<h3>Why aren't the # peeks on my post increasing?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'#peeks'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	The # peeks will increase when other users peek at your post. But it will not increase if you peek at your own post.
@@ -243,7 +243,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                <div class="col-sm-6 faq-box wow fadeInUp">
 	                    <div class="single-faq">
 	                    	<h3>How do I delete my Peek account?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'DeleteAccount'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	If you want to delete your account, please send your username to <a href="">support@joinpeek.com</a> and we'll delete it for you.
@@ -252,7 +252,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                    </div>
 	                    <div class="single-faq">
 	                    	<h3>How do I reset my password?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'ResetPassword'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	We're building a password recovery feature into the next version of Peek. In the meantime, please send your username to <a href="">support@joinpeek.com</a> and we'll reset it for you. 
@@ -261,7 +261,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                    </div>
 	                    <div class="single-faq">
 	                    	<h3>How can I report an inappropriate post?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'InappropriatePost'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	Click the "3-dot" menu button located under each Peek, then select "Report this post". We will review within 24hrs and delete the post if it violates the Terms of Service.
@@ -270,7 +270,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 	                    </div>
 	                    <div class="single-faq">
 	                    	<h3>When is Peek coming to Android?</h3>
-	                    	<span><i class="fa fa-plus"></i></span>
+	                    	<span onclick="Indicative.buildEvent('FAQs', {'Question':'Android'});"><i class="fa fa-plus"></i></span>
 	                    	<div class="single-faq-text">
 		                    	<p>
 			                    	Android is high on our priority list. We don't have a specific release date yet, but will let you know as soon as we do.
