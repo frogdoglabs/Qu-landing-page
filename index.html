@@ -82,13 +82,13 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 		
 		<!-- Top menu -->
 		<nav>
-			<a class="scroll-link" href="#top-content" onclick="Indicative.buildEvent('Home');mixpanel.track('Home');">Home</a>
-			<a class="scroll-link" href="#features" onclick="Indicative.buildEvent('How it works');">How It Works</a>
-			<a class="scroll-link" href="#faq" onclick="Indicative.buildEvent('FAQs top menu');">FAQs</a>
-			<a href="terms.html" target="_blank" onclick="Indicative.buildEvent('Terms & Privacy');">Terms & Privacy</a>
-			<a href="mailto:support@joinpeek.com" onclick="Indicative.buildEvent('Contact');">Contact</a>
+			<a class="scroll-link" href="#top-content" onclick="Indicative.buildEvent('Home');mixpanel.track('LP Home');">Home</a>
+			<a class="scroll-link" href="#features" onclick="Indicative.buildEvent('How it works');mixpanel.track('LP How it works');">How It Works</a>
+			<a class="scroll-link" href="#faq" onclick="Indicative.buildEvent('FAQs top menu');mixpanel.track('LP FAQs top menu');">FAQs</a>
+			<a href="terms.html" target="_blank" onclick="Indicative.buildEvent('Terms & Privacy');mixpanel.track(LP Terms & Privacy);">Terms & Privacy</a>
+			<a href="mailto:support@joinpeek.com" onclick="Indicative.buildEvent('Contact');mixpanel.track('LP Contact');">Contact</a>
 			<div class="hide-menu">
-				<a href=""><i class="fa fa-bars" onclick="Indicative.buildEvent('Hamburger menu');"></i></a>
+				<a href=""><i class="fa fa-bars" onclick="Indicative.buildEvent('Hamburger menu');mixpanel.track('LP Hamburger menu');"></i></a>
 			</div>
 		</nav>
 		<div class="show-menu">
