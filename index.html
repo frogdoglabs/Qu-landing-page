@@ -82,7 +82,7 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 		
 		<!-- Top menu -->
 		<nav>
-			<a class="scroll-link" href="#top-content" onclick="Indicative.buildEvent('Home');">Home</a>
+			<a class="scroll-link" href="#top-content" onclick="Indicative.buildEvent('Home');" onclick="mixpanel.track('Home');">Home</a>
 			<a class="scroll-link" href="#features" onclick="Indicative.buildEvent('How it works');">How It Works</a>
 			<a class="scroll-link" href="#faq" onclick="Indicative.buildEvent('FAQs top menu');">FAQs</a>
 			<a href="terms.html" target="_blank" onclick="Indicative.buildEvent('Terms & Privacy');">Terms & Privacy</a>
@@ -90,14 +90,6 @@ mixpanel.init("e046363590fb74f6d34b26fc4ba85977");
 			<div class="hide-menu">
 				<a href=""><i class="fa fa-bars" onclick="Indicative.buildEvent('Hamburger menu');"></i></a>
 			</div>
-
-			<script type="text/javascript">
-    		mixpanel.track_links("#nav a", "click nav link", {
-        	"referrer": document.referrer
-				});
-			</script>
-
-
 		</nav>
 		<div class="show-menu">
 			<a href=""><i class="fa fa-bars"></i></a>
