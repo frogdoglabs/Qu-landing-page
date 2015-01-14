@@ -71,6 +71,7 @@
 		<!-- Top menu -->
 		<nav>
 			<a class="scroll-link" href="#top-content" onclick="Indicative.buildEvent('Top');">Top</a>
+            <a class="scroll-link" href="#faq" onclick="Indicative.buildEvent('FAQs');">FAQs</a>
 			<a href="press.html" target="_blank" onclick="Indicative.buildEvent('Presskit');">PressKit</a>
 			<a href="terms.html" target="_blank" onclick="Indicative.buildEvent('Terms & Privacy');">Terms & Privacy</a>
 			<a href="mailto:support@askqu.co" onclick="Indicative.buildEvent('Contact');">Contact</a>
@@ -228,6 +229,79 @@
 	        </div>
         </div>
        
+<!-- FAQ -->
+        <div class="faq-container section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 faq section-description wow fadeIn">
+                        <h2>Frequent questions</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 faq-box wow fadeInLeft">
+                        <div class="single-faq">
+                            <h3>How do I vote on questions?</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'PeekPicks'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    To vote 'yes', touch the question and drag it toward the right of the screen.<br> To vote 'no', touch the question and drag it toward the left of the screen. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-faq">
+                            <h3>How do I grow my Qu Score?</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'SharePeeks'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    You get points for voting on questions, asking questions and when someone votes on your question.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-faq">
+                            <h3>What does a high Qu Score give me?</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'SavePeeks'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    Prestige. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 faq-box wow fadeInUp">
+                        <div class="single-faq">
+                            <h3>When is Qu coming to Android?</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'DeleteAccount'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    Android is high on our priority list. We don't have a specific release date yet, but will let you know as soon as we do.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-faq">
+                            <h3>I have a suggestion for Qu!</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'ResetPassword'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    Great! We're building this app for you, so feel free to let us know how we can make it better <a href="mailto:feedback@askqu.co">feedback@askqu.co</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-faq">
+                            <h3>How can I report an inappropriate question?</h3>
+                            <span onclick="Indicative.buildEvent('FAQs', {'Question':'InappropriatePost'});"><i class="fa fa-plus"></i></span>
+                            <div class="single-faq-text">
+                                <p>
+                                    Clikc the "Report" button under the question. We will review within 24hrs and delete it, if it violates the Terms of Service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <!-- Footer -->
         <footer>
 	        <div class="container">
