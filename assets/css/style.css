@@ -9,7 +9,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #1abc9c;
+	color: #FF1744;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -29,8 +29,8 @@ h1, h2 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
-::selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::-moz-selection { background: #FF1744; color: #fff; text-shadow: none; }
+::selection { background: #FF1744; color: #fff; text-shadow: none; }
 
 
 /***** General style, all sections *****/
@@ -38,12 +38,12 @@ img { max-width: 100%; }
 .section-container {
     margin: 0 auto;
     padding-bottom: 60px;
-    background: #f8f8f8;
-    color: #888;
+    background: #ffffff;
+    color: #333;
 }
 
 .section-container-full-bg {
-	color: #fff;
+	color: #333;
 }
 
 .section-description {
@@ -54,7 +54,7 @@ img { max-width: 100%; }
 .section-description h2 {
 	color: #333;
 }
-.section-container-full-bg .section-description h2 { color: #fff; }
+.section-container-full-bg .section-description h2 { color: #333; }
 
 .section-description p {
     margin-top: 30px;
@@ -95,8 +95,8 @@ nav a {
 	padding: 10px 0;
 	color: #fff;
 }
-nav a:hover { color: #1abc9c; }
-nav a:focus { color: #1abc9c; }
+nav a:hover { color: #FF1744; }
+nav a:focus { color: #FF1744; }
 
 .show-menu, .hide-menu {
 	position: absolute;
@@ -128,7 +128,7 @@ nav a:focus { color: #1abc9c; }
 .top-content {
     margin: 0 auto;
     text-align: left;
-    color: #fff;
+    color: #333;
 }
 
 .inner-bg {
@@ -256,8 +256,8 @@ nav a:focus { color: #1abc9c; }
 	min-height: 60px;
 	margin-bottom: 20px;
 	padding: 15px 25px;
-	background: #f6f6f6;
-	border-left: 1px solid #42bfc2;
+	background: #ffffff;
+	border-left: 1px solid #FF1744;
 	-moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
